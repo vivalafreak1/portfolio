@@ -4,7 +4,17 @@ module.exports = {
     "./components/**/*.tsx",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'poppins': ['Poppins'],
+    },
+    extend: {
+      colors: {
+          black: {
+            DEFAULT: '#29323c',
+            dark: '#485563'
+          }
+        },
+    },
   },
   plugins: [],
 }

@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* //TODO use tailwind */
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
