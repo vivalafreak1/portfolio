@@ -24,7 +24,7 @@ const Sidebar = () => {
                 download='name'>
                 <GiTie className='w-6 h-6'/>Download Resume
             </a>
-            {/*//social icon*/}
+            {/*social icon*/}
             <div className='flex justify-around w-9/12 mx-auto my-5 text-black md:w-full'>
                 <a href="">
                     <AiFillGithub className='w-8 h-8 cursor-pointer'/>
