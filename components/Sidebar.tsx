@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from 'react'
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 import {GoLocation} from 'react-icons/go'
@@ -26,10 +28,10 @@ const Sidebar = () => {
             </a>
             {/*social icon*/}
             <div className='flex justify-around w-9/12 mx-auto my-5 text-black md:w-full'>
-                <a href="">
+                <a href="https://github.com/vivalafreak1" target="_blank">
                     <AiFillGithub className='w-8 h-8 cursor-pointer'/>
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/eddiesti/" target="_blank">
                     <AiFillLinkedin className='w-8 h-8 cursor-pointer'/>
                 </a>
             </div>
