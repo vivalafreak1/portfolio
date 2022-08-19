@@ -1,6 +1,6 @@
 import { IconType } from "react-icons"
 
-export interface iService{
+export interface IService{
     title:string
     about:string
     Icon: IconType

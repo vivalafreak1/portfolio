@@ -28,14 +28,15 @@ const Sidebar = () => {
             </a>
             {/*social icon*/}
             <div className='flex justify-around w-9/12 mx-auto my-5 text-black md:w-full'>
-                <a href="https://github.com/vivalafreak1" target="_blank">
+                <a href="https://github.com/vivalafreak1">
                     <AiFillGithub className='w-8 h-8 cursor-pointer'/>
                 </a>
-                <a href="https://www.linkedin.com/in/eddiesti/" target="_blank">
+                <a href="https://www.linkedin.com/in/eddiesti/">
                     <AiFillLinkedin className='w-8 h-8 cursor-pointer'/>
                 </a>
             </div>
-            {/* Address */}
+
+            {/* Contacts */}
             <div 
                 className='py-4 my-5 bg-gray-200' 
                 style={{marginLeft:'-1rem', marginRight:'-1rem'}}>
@@ -46,6 +47,7 @@ const Sidebar = () => {
                 <p className='my-2'>arief@gmail.com</p>
                 <p className='my-2'>+6285564346533</p>
             </div>
+
             {/* Email Button */}
             <button 
                 className='w-8/12 px-2 py-2 my-2 text-white rounded-full bg-gradient-to-r from-black to-black-dark focus:outline-none'
